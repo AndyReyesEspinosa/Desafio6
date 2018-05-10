@@ -1,0 +1,62 @@
+	* {
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+ }
+
+@keyframes ruedas {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+ul li i {
+	animation-name: ruedas;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	font-size: 100px;
+	position: absolute;
+}
+
+ul li.rueda1 i {
+	font-size: 150px;
+	left: 20px;
+	top: 350px;
+	animation-direction: reverse;
+	
+}
+
+ul li.rueda2 i {
+	font-size: 400px;
+	left: 80px;
+	top: 0;
+	
+}
+
+ul li.rueda3 i {
+	font-size: 300px;
+	left: 100px;
+	top: 450px;
+	
+}
+
+ul li.rueda4 i {
+	font-size: 200px;
+	left: 460px;
+	top: 220px;
+	animation-direction: reverse;
+	
+}
+
+ul li.rueda5 i {
+	left: 410px;
+	top: 550px;
+	animation-direction: reverse;
+
+} 
